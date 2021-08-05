@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lavarez_Nico_Rey</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+	<style type="text/css">
+	#logo {
+		width: 80px;
+		height: 45px;
+		border-radius: 5px;
+		margin-bottom: -5px;
+		margin-top: -5px;
+	}
+	#nav {
+		background-color: #000000;
+	}
+
+	#dropdown-menu{
+		background-color: #808080;
+	}
+	body{
+		background: url("logo.jpg") no-repeat;
+		background-size: cover;
+	}
+	</style>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="nav">
+  <a class="navbar-brand" href="#"><img src="fish.png" alt="fishlogo" id="logo"></a>
+  <ul class="navbar-nav mr-auto mt-2 mt-lg-0" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home_tab">Home</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        About
+      </a>
+      <div class="dropdown-menu" id="dropdown-menu">
+        <a class="dropdown-item" href="#">News</a>
+        <a class="dropdown-item" href="#">About Us</a>
+      </div>
+    </li>
+  </ul>
+  <form class="form-inline" action="#">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-info" type="submit">Search</button>
+  </form>
+</nav>
+</body>
+</html>
